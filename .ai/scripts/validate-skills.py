@@ -6,11 +6,16 @@ from pathlib import Path
 REQUIRED_HEADINGS = [
     "## Purpose",
     "## Trigger Phrases",
+    "## Owner / Script",
     "## Inputs",
+    "## Environment",
+    "## Prechecks",
     "## Steps",
+    "## What This Updates / Does",
     "## Verification",
     "## Failure Handling",
     "## Rollback",
+    "## Outputs / Artifacts",
 ]
 
 SKIP_FILES = {"README.md"}

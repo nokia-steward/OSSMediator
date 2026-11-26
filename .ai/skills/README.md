@@ -23,9 +23,9 @@ update the skill here first, then keep adapters in sync (see
 
 ## Adding a new skill
 1. Copy `../templates/skill-template.md` to `<verb-noun>.md` in this folder.
-2. Fill in every section (`Purpose`, `Trigger Phrases`, `Inputs`, `Prechecks`,
-   `Steps`, `What This Updates`/`Does`, `Verification`, `Failure Handling`,
-   `Rollback`, `Outputs`).
+2. Fill in every section (`Purpose`, `Trigger Phrases`, `Owner / Script`,
+   `Inputs`, `Environment`, `Prechecks`, `Steps`, `What This Updates / Does`,
+   `Verification`, `Failure Handling`, `Rollback`, `Outputs / Artifacts`).
 3. Run `python .ai/scripts/validate-skills.py` from the repository root to confirm required sections exist.
 4. Add a row to the index table above.
 5. Run `python .ai/scripts/sync-tool-adapters.py` from the repository root to regenerate thin adapter
