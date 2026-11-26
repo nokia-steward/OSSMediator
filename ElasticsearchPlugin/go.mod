@@ -1,6 +1,6 @@
 module elasticsearchplugin
 
-go 1.26.5
+go 1.26.11
 
 replace golang.org/x/sys => golang.org/x/sys v0.47.0
 

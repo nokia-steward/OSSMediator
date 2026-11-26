@@ -1058,7 +1058,7 @@
       "type": "table"
     }
   ],
-  "preload": false,
+  "preload": true,
   "refresh": "1m",
   "schemaVersion": 42,
   "tags": [

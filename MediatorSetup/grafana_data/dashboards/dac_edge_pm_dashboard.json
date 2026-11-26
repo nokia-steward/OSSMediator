@@ -1197,7 +1197,7 @@
       "type": "timeseries"
     }
   ],
-  "preload": false,
+  "preload": true,
   "refresh": "5m",
   "schemaVersion": 42,
   "tags": [

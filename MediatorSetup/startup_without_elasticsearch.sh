@@ -3,14 +3,14 @@ set -e
 
 install_grafana() {
 	if [ -x "$(command -v yum)" ]; then
-		yum install -y https://dl.grafana.com/grafana/release/13.1.3/grafana_13.1.3_31135815010_linux_amd64.rpm
+		yum install -y https://dl.grafana.com/grafana/release/13.1.11/grafana_13.1.11_45404014012_linux_amd64.rpm
 	elif [ -x "$(command -v apt-get)" ]; then
 		apt-get install -y adduser libfontconfig1 musl
-		wget https://dl.grafana.com/grafana/release/13.1.3/grafana_13.1.3_31135815010_linux_amd64.deb
-		dpkg -i grafana_13.1.3_31135815010_linux_amd64.deb
+		wget https://dl.grafana.com/grafana/release/13.1.11/grafana_13.1.11_45404014012_linux_amd64.deb
+		dpkg -i grafana_13.1.11_45404014012_linux_amd64.deb
 	elif [ -x "$(command -v rpm)" ]; then
-		wget https://dl.grafana.com/grafana/release/13.1.3/grafana_13.1.3_31135815010_linux_amd64.rpm
-		rpm -Uvh grafana_13.1.3_31135815010_linux_amd64.rpm
+		wget https://dl.grafana.com/grafana/release/13.1.11/grafana_13.1.11_45404014012_linux_amd64.rpm
+		rpm -Uvh grafana_13.1.11_45404014012_linux_amd64.rpm
 	else
 		echo "Error can't install Grafana, please install it manually and re-run the script."
 		exit 1;

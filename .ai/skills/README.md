@@ -19,7 +19,7 @@ update the skill here first, then keep adapters in sync (see
 
 | Skill | File | Summary |
 |---|---|---|
-| Update OSSMediator Versions | [`update-ossmediator-versions.md`](./update-ossmediator-versions.md) | Bump Go, Alpine, Grafana, and OpenSearch versions in this open-source repo. |
+| Update OSSMediator (Open Source) | [`update-ossmediator-versions.md`](./update-ossmediator-versions.md) | Version pins (Go, Alpine, Grafana, OpenSearch) and MediatorSetup dashboard cleanup: PDF links, NQA/Performance Analysis removal, n−3 Radio PM pruning. |
 
 ## Adding a new skill
 1. Copy `../templates/skill-template.md` to `<verb-noun>.md` in this folder.

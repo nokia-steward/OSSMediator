@@ -1,6 +1,22 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+# 4.6.5
+REMOVED:
+* MediatorSetup: Removed dashboard PDF report links from Grafana dashboards.
+* MediatorSetup: Removed Radio 4G and 5G NQA PM dashboards.
+* MediatorSetup: Removed Radio 4G and 5G Performance Analysis dashboards.
+* MediatorSetup: Removed Radio 5G PMQAP profile dashboards (mobility and network performance).
+* MediatorSetup: Removed Radio PM `25R3` dashboards.
+
+SECURITY UPDATE:
+* OSSMediator:
+  * Updated `golang` version to `1.26.11`.
+  * Updated base image to `alpine:3.24.4`.
+* MediatorSetup:
+  * Updated OpenSearch version to `3.10.1`.
+  * Updated Grafana version to `13.1.11`.
+
 # 4.6.4
 IMPROVEMENTS:
 * MediatorSetup:
