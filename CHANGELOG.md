@@ -1,6 +1,22 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+# 4.6.5
+IMPROVEMENTS:
+* MediatorSetup:
+  * Added Radio PM Dashboards for `26R3` release.
+
+REMOVED:
+* MediatorSetup: Removed Radio PM `25R3` dashboards.
+
+SECURITY UPDATE:
+* OSSMediator:
+  * Updated `golang` version to `1.27.4`.
+  * Updated base image to `alpine:3.24.4`.
+* MediatorSetup:
+  * Updated OpenSearch version to `3.10.1`.
+  * Updated Grafana version to `13.1.11`.
+
 # 4.6.4
 IMPROVEMENTS:
 * MediatorSetup:
