@@ -6721,7 +6721,7 @@
       "type": "row"
     }
   ],
-  "preload": true,
+  "preload": false,
   "refresh": "5m",
   "schemaVersion": 42,
   "tags": [

@@ -1,5 +1,5 @@
 # Staging: for building go app (OSSMediatorCollector)
-FROM golang:1.26.11 AS builder
+FROM golang:1.27.4 AS builder
 
 # download dependencies for build
 RUN go install github.com/jstemmer/go-junit-report@latest
